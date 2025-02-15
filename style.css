@@ -1,0 +1,343 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  html {
+      width: 100vw;
+      height: 100vh;
+      font-size: 62.5%;
+      color: black;
+
+  }
+
+  .section-um {
+      background: linear-gradient(rgb(16, 16, 16, 0.5), rgba(25, 25, 25, 0.5)), url(img/img-capa.jpg);
+      background-position: center center;
+      background-size: cover;
+      background-position-y: 0px;
+      background-repeat: no-repeat;
+      height: 1000px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .section-dois {
+      display: flex;
+
+  }
+
+  .section-dois-text {
+      color: black;
+      width: 700px;
+      height: 150px;
+      padding: 100px;
+      font-size: 20px;
+  }
+
+  .section-dois-text h4 {
+
+      padding: 10px;
+
+  }
+
+  .section-dois-text p {
+
+      padding: 20px;
+
+  }
+
+  span {
+      color: rgb(167, 167, 29);
+      padding-left: 15px;
+  }
+
+  h1 {
+      font-size: 30px;
+      color: yellow;
+  }
+
+  h2 {
+      width: 1100px;
+      text-align: center;
+      font-size: 100px;
+      color: white;
+  }
+
+  h4 {
+      font-size: 30px;
+      padding-bottom: 5px;
+  }
+
+  .video-dois {
+      height: 600px;
+      width: 100%;
+
+  }
+
+  .img {
+      height: 100px;
+      height: 100vh;
+  }
+
+  .container-request {
+      display: flex;
+      font-size: 30px;
+      color: white;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      height: 150px;
+      width: 100%;
+      background-color: rgb(41, 37, 37);
+  }
+
+  .video {
+      width: 600px;
+      height: 600px;
+      padding: 100px 70px;
+      object-fit: cover;
+  }
+
+  .button-request {
+      padding: 15px;
+      font-size: 10px;
+      background-color: yellow;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+
+  }
+
+  header {
+      width: 100%;
+      height: 150px;
+      background: white;
+      box-shadow: 0px 0px 15px black;
+  }
+
+  .menu {
+      width: 100px;
+      height: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 16px;
+  }
+
+  .logo {
+      width: 250px;
+      margin-left: 100px;
+  }
+
+  .menu .lista {
+      display: flex;
+      list-style: none;
+      gap: 15px;
+  }
+
+  .menu .lista a {
+      text-decoration: none;
+      color: rgb(95, 94, 94);
+      padding: 10px;
+      transition: 2ms ease-in;
+      position: relative;
+  }
+
+  .menu .lista a:before {
+      content: '';
+      position: absolute;
+      bottom: 0px;
+      left: 50%;
+      width: 0px;
+      height: 3px;
+      background-color: wheat;
+      /* cor de fundo */
+      transition: all 1s ease-out;
+      /* transição do elemento */
+      transform: translateX(-50%);
+  }
+
+  .menu .lista a:hover:before {
+      width: 100%;
+      background-color: yellow;
+      /* cor de fundo */
+  }
+
+  .section-quatro {
+      background-color: rgb(228, 227, 227);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      padding: 50px;
+      height: 100%;
+
+  }
+
+  .section-quatro-text-um h4 {
+      font-size: 50px;
+      color: black;
+  }
+
+  .section-quatro-text-um h5 {
+      color: orange;
+      font-size: 20px;
+  }
+
+  .section-quatro-text-um p {
+      font-size: 16px;
+      width: 500px;
+      padding: 45px 0 40px 0;
+
+  }
+
+  .section-quatro-text-dois h4 {
+      font-size: 60px;
+      width: 500px;
+      padding: 10px 0 10px 0;
+  }
+
+  .section-quatro-text-dois p {
+      font-size: 16px;
+      width: 500px;
+      padding: 10px 0 10px 0;
+  }
+
+  .button-section-quatro {
+      width: 200px;
+      padding: 15px;
+      margin: 10px 0 0 0 0;
+      font-size: 10px;
+      background-color: white;
+      color: yellow;
+      border: 2px solid orange;
+      cursor: pointer;
+      font-weight: bold;
+  }
+
+  .hr {
+      margin: 30px;
+      width: 70px;
+      border: 2px solid orange;
+      border-radius: 10px;
+  }
+
+  .image-container {
+      position: relative;
+      width: 322px;
+      height: 500px;
+      font-size: 16px;
+      text-align: center;
+
+  }
+
+  .image-container h4 {
+      font-size: 30px;
+      text-align: center;
+      color: black;
+      margin: 40px 0 20px 0;
+  }
+
+  .image-container p {
+    width: 250px;
+    margin: 40px 70px 50px 40px;
+}
+
+
+  strong {
+      width: 250px;
+      text-align: center;
+      color: orange;
+  }
+
+  .button {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      background-color: black;
+      color: #fff;
+      border: none;
+      padding: 20px 50px;
+      cursor: pointer;
+  }
+
+  .section-cinco-zero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px;
+      height: 100%;
+
+  }
+
+  .section-cinco-zero h4 {
+      font-size: 60px;
+      color: black;
+  }
+
+  .section-cinco-zero h5 {
+      text-align: center;
+      color: orange;
+      font-size: 20px;
+      margin: 5px 0 20px 0;
+  }
+
+  .section-cinco-zero p {
+    width: 700px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+
+  .section-cinco-block {
+      display: flex;
+      justify-content: center;
+      padding: 50px;
+      height: 100%;
+  }
+
+  footer {
+      background-color: black;
+      color: white;
+      padding: 20px 0;
+      font-size: 12px;
+  }
+
+  .footer-text-um {
+      font-size: 30px;
+      text-align: center;
+      padding: 10px;
+  }
+
+  .footer-text-dois {
+      font-size: 65px;
+      text-align: center;
+      padding: 10px;
+  }
+
+  .footer-button {
+      height: 60px;
+      width: 300px;
+      padding: 15px;
+      font-size: 10px;
+      margin: 0px 0px 0px 540px;
+      background-color: yellow;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+
+  }
